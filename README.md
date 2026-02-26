@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains the analytical code and input files supporting **Chapter 1** of my thesis on long term morphological change in native Australian bees using historical museum specimens.
+This repository contains the analytical code and input files supporting the analyses presented in the associated manuscript on long term morphological change in native Australian bees using historical museum specimens.
 
 The study evaluates the limits of single-trait proxies for body size by applying a **multivariate** and **phylogenetically informed** framework to seven morphological traits measured across ten species. The workflow includes:
 
@@ -60,7 +60,7 @@ Phylogenetic analyses are based on a pruned global bee backbone phylogeny.
 │   ├── AusBeesPopDen1.csv
 │   └── BEE_phylogeny.nwk
 ├── scripts/
-│   ├── 02_species_level_trends.R  
+│   ├── 02_species_level_trends.R
 └── README.md
 ```
 
@@ -71,7 +71,7 @@ Phylogenetic analyses are based on a pruned global bee backbone phylogeny.
 This repository includes the core input files required to reproduce the analyses:
 
 * **`data/AusBeesPopDen1.csv`**
-  Morphological dataset used in the Chapter 1 analyses
+  Morphological dataset used in the analyses
 
 * **`data/BEE_phylogeny.nwk`**
   Newick format phylogeny used for pruning and phylogenetically informed analyses
@@ -136,7 +136,7 @@ To reproduce the analyses:
    * `data/AusBeesPopDen1.csv`
    * `data/BEE_phylogeny.nwk`
 4. Run scripts sequentially from the `scripts/` directory.
-5. Regenerate figures into the `figures/` directory.
+5. Regenerate figures into the appropriate output directory, if applicable.
 
 ---
 
